@@ -2,4 +2,5 @@
 
   <!--run tailwind command: npm run dev -->
 
+  <!--using git?: git status -->
 

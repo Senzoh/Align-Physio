@@ -1,0 +1,221 @@
+<!doctype html>
+<html>
+<head>
+  <title>Align Physio: Virtual Consultation</title>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="../../output.css" rel="stylesheet">
+  <script type="module" src="/src/js/main.js" defer></script>
+  <script defer src="/js/components.js"></script>
+  <script src="/js/faq-dropdown.js" defer></script>
+</head>
+<body>
+  <div class="bg-blue-900 px-40 text-white flex justify-between items-center h-[10px]"></div>
+
+<!-- Navigation Bar -->
+<header id="nav-container" class="z-50 sticky top-0"></header>
+
+<!-- Introduction Section -->
+<section class="py-20 px-4 md:px-20 xl:px-40 sm:flex gap-x-10 bg-white">
+  <!-- Text Content -->
+  <div class="sm:flex-1 flex flex-col justify-center">
+    <p class="text-blue-800 font-bold text-left">EXPERT CARE, FROM ANYWHERE</p>
+    <h2 class="text-3xl md:text-3xl font-bold text-gray-900 text-left mb-6 tracking-tight">
+      Virtual Physiotherapy Consultation
+    </h2>
+    <p class="text-gray-600 font-semibold mb-6">
+      Get professional advice and treatment guidance from a certified physiotherapist — no matter where you are. Our virtual consultations help you understand your pain, answer questions, and build a clear plan for recovery from the comfort of your home.
+    </p>
+
+    <!-- Bullet Points with Ticks -->
+    <ul class="space-y-3">
+      <li class="flex items-center text-gray-700 font-medium">
+        <span class="text-amber-500 mr-3">&#x2713;</span> 30-minute video session with a licensed physio
+      </li>
+      <li class="flex items-center text-gray-700 font-medium">
+        <span class="text-amber-500 mr-3">&#x2713;</span> Personalised guidance based on your condition
+      </li>
+      <li class="flex items-center text-gray-700 font-medium">
+        <span class="text-amber-500 mr-3">&#x2713;</span> Discuss pain, injury, rehab, or general mobility goals
+      </li>
+      <li class="flex items-center text-gray-700 font-medium">
+        <span class="text-amber-500 mr-3">&#x2713;</span> Receive emailed follow-up plan with next steps
+      </li>
+      <li class="flex items-center text-gray-700 font-medium">
+        <span class="text-amber-500 mr-3">&#x2713;</span> No need to travel or wait in a clinic
+      </li>
+    </ul>
+  </div>  
+
+  <!-- Image Section -->
+  <div class="sm:flex-1 hidden md:block">
+    <img src="/images/hit/book.png" alt="Virtual consultation" class="w-full h-full object-cover rounded-lg shadow-md" />
+  </div>
+</section>
+
+<!-- How It Helps -->
+<section class="bg-blue-50 py-20 px-4 md:px-20 xl:px-40">
+  <div>
+    <h3 class="text-2xl font-bold text-gray-900 mb-10">Why Choose a Virtual Consultation?</h3>
+    <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+      <div class="bg-white hover:bg-blue-100 p-6 rounded-lg shadow-md transition duration-300 border-b-3 border-blue-900">
+        <p class="text-lg font-semibold text-blue-900 mb-2">Convenient & Accessible</p>
+        <p class="text-gray-700">Skip travel and book from home or anywhere you feel comfortable.</p>
+      </div>
+      <div class="bg-white hover:bg-blue-100 p-6 rounded-lg shadow-md transition duration-300 border-b-3 border-blue-900">
+        <p class="text-lg font-semibold text-blue-900 mb-2">Personal Expert Guidance</p>
+        <p class="text-gray-700">Talk 1:1 with a professional and get tailored strategies for recovery.</p>
+      </div>
+      <div class="bg-white hover:bg-blue-100 p-6 rounded-lg shadow-md transition duration-300 border-b-3 border-blue-900">
+        <p class="text-lg font-semibold text-blue-900 mb-2">Fast Answers</p>
+        <p class="text-gray-700">Get clarity on what’s happening and what you can do next.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- What to Expect -->
+<section class="bg-white py-20 px-4 md:px-20 xl:px-40">
+  <div class="grid md:grid-cols-2 gap-10 items-center">
+    <!-- Image -->
+    <div>
+      <img src="/images/hit/speak.png" alt="Physio call session" class="rounded-lg shadow-md w-full h-auto object-cover" />
+    </div>
+
+    <!-- Text Content -->
+    <div class="grid sm:grid-cols-1 gap-5">
+      <h3 class="text-2xl font-bold text-gray-900 mb-6">What Happens During Your Call?</h3>
+      <p class="text-gray-700 mb-6">
+        Your physiotherapist will ask about your symptoms, movement limitations, and goals. They may observe basic movements through video and offer exercises or advice in real time. You’ll also receive a follow-up summary by email.
+      </p>
+      <ul class="space-y-4 text-gray-700">
+        <li><span class="text-amber-500 mr-3">&#x2713;</span>Quick screening and symptom analysis</li>
+        <li><span class="text-amber-500 mr-3">&#x2713;</span>Live movement observation (optional)</li>
+        <li><span class="text-amber-500 mr-3">&#x2713;</span>Tailored advice and practical exercises</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section class="bg-blue-50 py-20 px-4 md:px-20 xl:px-40" id="faq-section">
+  <div class="">
+    <p class="text-blue-800 font-bold text-left">FREQUENTLY ASKED QUESTIONS - FAQ</p>
+    <h2 class="text-3xl md:text-3xl font-bold text-gray-900 text-left mb-12 tracking-tight">
+      Everything you need to know, answered.
+    </h2>
+  </div>
+
+  <!-- FAQ dropdown 1 -->
+  <div data-toggle="faq" class="bg-white rounded-xs shadow-md overflow-hidden p-6 pb-0 mb-4 cursor-pointer">
+    <div class="flex justify-between items-center flex-1 bg-white pb-5 rounded-xs border-b border-gray-200">
+      <h3 class="font-extrabold">What is included in a virtual consultation?</h3>
+      <span class="flex justify-center items-center rounded-full size-10 shrink-0 bg-amber-500 text-white font-bold">+</span>
+    </div>
+    <div data-target="faq" class="hidden pt-5 pb-5">
+      <p>
+        A 30-minute video call with a certified physiotherapist where you’ll receive personalised advice on pain, injury, rehab, or mobility concerns. You’ll also get a written follow-up with your next steps and recommendations.
+      </p>
+    </div>
+  </div>
+
+  <!-- FAQ dropdown 2 -->
+  <div data-toggle="faq" class="bg-white rounded-xs shadow-md overflow-hidden p-6 pb-0 mb-4 cursor-pointer">
+    <div class="flex justify-between items-center flex-1 bg-white pb-5 rounded-xs border-b border-gray-200">
+      <h3 class="font-extrabold">What can I use a virtual consultation for?</h3>
+      <span class="flex justify-center items-center rounded-full size-10 shrink-0 bg-amber-500 text-white font-bold">+</span>
+    </div>
+    <div data-target="faq" class="hidden pt-5 pb-5">
+      <p>
+        It’s ideal for pain assessments, rehab advice, post-treatment guidance, or general mobility and wellness check-ins. Whether you're recovering from injury or seeking expert input, it's a convenient way to get answers.
+      </p>
+    </div>
+  </div>
+
+  <!-- FAQ dropdown 3 -->
+  <div data-toggle="faq" class="bg-white rounded-xs shadow-md overflow-hidden p-6 pb-0 mb-4 cursor-pointer">
+    <div class="flex justify-between items-center flex-1 bg-white pb-5 rounded-xs border-b border-gray-200">
+      <h3 class="font-extrabold">Do I need any special equipment?</h3>
+      <span class="flex justify-center items-center rounded-full size-10 shrink-0 bg-amber-500 text-white font-bold">+</span>
+    </div>
+    <div data-target="faq" class="hidden pt-5 pb-5">
+      <p>
+        No specialist equipment is required. Just a stable internet connection, a smartphone or computer with a camera, and a quiet, well-lit space where you can move freely for any assessments.
+      </p>
+    </div>
+  </div>
+
+  <!-- FAQ dropdown 4 -->
+  <div data-toggle="faq" class="bg-white rounded-xs shadow-md overflow-hidden p-6 pb-0 mb-4 cursor-pointer">
+    <div class="flex justify-between items-center flex-1 bg-white pb-5 rounded-xs border-b border-gray-200">
+      <h3 class="font-extrabold">Is a virtual session as effective as in-person?</h3>
+      <span class="flex justify-center items-center rounded-full size-10 shrink-0 bg-amber-500 text-white font-bold">+</span>
+    </div>
+    <div data-target="faq" class="hidden pt-5 pb-5">
+      <p>
+        While hands-on treatment isn’t possible, virtual consultations are highly effective for advice, rehab planning, pain education, and mobility guidance. Many clients find them just as helpful, especially for early intervention and follow-up.
+      </p>
+    </div>
+  </div>
+
+  <div class="flex gap-x-4 pt-10 justify-center">
+    <a href="/pages/faq/faq.html" class="py-4 px-9 bg-white text-amber-500 border border-amber-500 hover:bg-amber-50 font-medium rounded-md shadow-sm transition duration-200 focus:outline-none focus:ring-2 focus:ring-amber-400 focus:ring-offset-1">
+      More...
+    </a>
+  </div>
+</section>
+
+<!-- Pricing Section -->
+<section class="bg-white py-20 px-4 md:px-20 xl:px-40">
+  <div class="max-w-6xl mx-auto text-center mb-12">
+    <h2 class="text-3xl font-bold text-gray-900 mb-4">Pricing</h2>
+    <p class="text-gray-600 text-lg">Your expert session, delivered virtually.</p>
+  </div>
+
+  <div class="grid md:grid-cols-1 gap-8 max-w-3xl mx-auto">
+    <div class="border border-gray-200 rounded-lg shadow-sm p-6 flex flex-col bg-blue-50">
+      <h3 class="text-xl font-semibold text-gray-900 mb-2">Virtual Consultation</h3>
+      <p class="text-gray-700 mb-4">30-minute online video session with a certified physiotherapist.</p>
+      <div class="text-3xl font-bold text-amber-500 mb-4">£40</div>
+      <ul class="text-gray-700 space-y-2 mb-6">
+        <li>• Convenient online appointment</li>
+        <li>• One-to-one expert advice</li>
+        <li>• Custom plan emailed after session</li>
+        <li>• Ideal for new pain, questions, or rehab check-ins</li>
+      </ul>
+      <a href="/booking" class="mt-auto inline-block bg-amber-500 text-white font-medium px-6 py-2 rounded-md hover:bg-amber-600 transition">
+        Book Now
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- Call to Action Section -->
+<section class="py-10 px-4 md:px-20 xl:px-40">
+  <div class="relative w-full h-96 overflow-hidden rounded-lg">
+    <!-- Background Image -->
+    <img 
+      src="/images/post-surgery-therapy.jpg" 
+      alt="Virtual physiotherapy support" 
+      class="w-full h-full object-cover"
+    />
+    <div class="absolute inset-0 bg-blue-950/30 flex items-center">
+      <div class="text-left text-white px-10 max-w-md">
+        <h2 class="text-3xl font-bold mb-2 text-white">Not Sure Where to Start?</h2>
+        <p class="text-sm mb-8">
+          Book a virtual consultation and get professional clarity on your next steps—no commitment, just help.
+        </p>
+        <a href="/pages/contact-us/contact-us.html" class="py-4 px-9 bg-amber-500 hover:bg-amber-600 text-white font-medium rounded-md shadow-sm transition duration-200 focus:outline-none focus:ring-2 focus:ring-amber-400 focus:ring-offset-1">
+          Book a Session
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer id="footer-container"></footer>
+
+</body>
+</html>

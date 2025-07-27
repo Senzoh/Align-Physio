@@ -1,0 +1,188 @@
+<!doctype html>
+<html>
+<head>
+  <title>Align Physio: About Us</title>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="../../output.css" rel="stylesheet">
+  <script type="module" src="/src/js/main.js" defer></script>
+  <script defer src="/js/components.js"></script>
+</head>
+<body>
+  <div class="bg-blue-900 px-40 text-white flex justify-between items-center h-[10px]"></div>
+
+  <!-- Navigation Bar -->
+  <header id="nav-container" class="z-50 sticky top-0"></header>
+
+  <!-- banner -->
+  <section class="">
+    <div class="relative w-full h-74 overflow-hidden">
+      <!-- Background Image -->
+      <img 
+        src="/images/post-surgery-therapy.jpg" 
+        alt="Post-surgery therapy" 
+        class="w-full h-full object-cover"
+      />
+    
+      <!-- Overlay Content -->
+      <div class="absolute inset-0 bg-blue-950/25 flex items-center">
+        <div class="text-left text-white px-4 sm:px-40 lg:px-50 xl:px-80 drop-shadow-[0_0_3px_#ffffffcc]">
+          <div class="mb-10">
+            <p class="text-blue-900 font-semibold uppercase tracking-wide mb-2 drop-shadow-[0_0_1px_#ffffffcc]">
+              Get in Touch
+            </p>
+            <h2 class="text-3xl font-bold text-white tracking-tight mb-4">
+              We’d love to hear from you.
+            </h2>
+            <p class="text-blue-50 drop-shadow-[0_0_1px_#ffffff]">
+              Whether you have questions about our services, pricing, or anything else — our team is ready to answer all your questions. Reach out to us through any of the following channels.
+            </p>
+          </div>
+        </div>
+            
+      </div>
+
+    </div>
+    
+  </section>
+
+  <!-- Contact Us -->
+  <section class="py-20 px-4 sm:px-40 lg:px-50 xl:px-80" id="contact-section">
+
+  <div class="flex flex-col lg:flex-row gap-6 max-w-screen-xl mx-auto">
+    <!-- left -->
+    <div class="sm:flex-1 bg-blue-50 p-8 rounded-lg shadow-lg">
+      <div class="grid gap-2 md:grid-cols-1">
+        <!-- Contact Details -->
+        <div class="space-y-6 h-full">
+          <div>
+            <h3 class="text-lg font-semibold text-gray-900">📧 Email</h3>
+            <p class="text-gray-600">support@yourcompany.com</p>
+          </div>
+    
+          <div>
+            <h3 class="text-lg font-semibold text-gray-900">📞 Phone</h3>
+            <p class="text-gray-600">+44 1234 567 890</p>
+          </div>
+    
+          <div>
+            <h3 class="text-lg font-semibold text-gray-900">📍 Location</h3>
+            <p class="text-gray-600">Unit 5 Baltimore Wharf, London E14 9FB</p>
+          </div>
+    
+          <div class="pt-4 flex space-x-4 text-gray-500">
+            <!-- Lucide icons (via CDN) -->
+            <a href="#" class="hover:text-blue-600" aria-label="Twitter">
+              <i data-lucide="twitter" class="w-6 h-6"></i>
+            </a>
+            <a href="#" class="hover:text-blue-600" aria-label="Instagram">
+              <i data-lucide="instagram" class="w-6 h-6"></i>
+            </a>
+            <a href="#" class="hover:text-blue-600" aria-label="Facebook">
+              <i data-lucide="facebook" class="w-6 h-6"></i>
+            </a>
+            <a href="#" class="hover:text-blue-600" aria-label="LinkedIn">
+              <i data-lucide="linkedin" class="w-6 h-6"></i>
+            </a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  
+    <!-- right -->
+    <div class="sm:flex-3 bg-white p-10 rounded-lg shadow-lg">
+      <form class="flex flex-col justify-around h-full">
+        <!-- Name Field -->
+        <div>
+          <label for="name" class="block text-sm font-medium text-gray-700 mb-1">Full Name</label>
+          <input
+            type="text"
+            id="name"
+            name="name"
+            placeholder="Your name"
+            class="w-full px-4 py-3 border border-gray-300 rounded-md shadow-sm focus:ring-2 focus:ring-blue-500 focus:outline-none"
+            required
+          />
+        </div>
+    
+        <!-- Email Field -->
+        <div>
+          <label for="email" class="block text-sm font-medium text-gray-700 mb-1">Email Address</label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="you@example.com"
+            class="w-full px-4 py-3 border border-gray-300 rounded-md shadow-sm focus:ring-2 focus:ring-blue-500 focus:outline-none"
+            required
+          />
+        </div>
+  
+        <!-- Phone Field -->
+        <div>
+          <label for="phone" class="block text-sm font-medium text-gray-700 mb-1">Phone Number</label>
+          <input
+          type="tel"
+          id="phone"
+          name="phone"
+          placeholder="+44 7123 456789"
+          pattern="^\+?[0-9\s\-]{7,15}$"
+          inputmode="tel"
+          class="w-full px-4 py-3 border border-gray-300 rounded-md shadow-sm focus:ring-2 focus:ring-blue-500 focus:outline-none"
+          required
+        />      
+        </div>
+  
+        <!-- Message Field -->
+        <div>
+          <label for="message" class="block text-sm font-medium text-gray-700 mb-1">Your Message</label>
+          <textarea
+            id="message"
+            name="message"
+            rows="5"
+            placeholder="Type your message here..."
+            class="w-full px-4 py-3 border border-gray-300 rounded-md shadow-sm focus:ring-2 focus:ring-blue-500 focus:outline-none resize-none"
+            required
+          ></textarea>
+        </div>
+  
+        <!-- captcha box -->
+    
+        <!-- Submit Button -->
+        <div class="pt-4">
+          <button
+            type="submit"
+            class="w-full bg-blue-600 hover:bg-blue-700 text-white font-medium py-3 px-6 rounded-md shadow-md transition duration-200 focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-offset-2"
+          >
+            Send Message
+          </button>
+        </div>
+      </form>
+    </div>
+  </div>
+  </section>
+
+  <!-- User Reviews Carousel Component-->
+  <script type="module" src="/components/user-reviews.js"></script>
+  <div class="user-review-carousel" data-category="massage"></div>
+
+  <!-- Map -->
+  <div class="w-full rounded-none overflow-hidden shadow-md">
+    <iframe
+      class="w-full h-72 border-0"
+      loading="lazy"
+      allowfullscreen
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2483.913052454375!2d-0.016489397744426895!3d51.496463030178795!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487602bca74c5203%3A0xc9d8c00b6c686495!2sVitalFit%20UK%20-%20EMS%2C%20Pilates%20Reformer%2C%20Sports%20Therapy!5e0!3m2!1sen!2suk!4v1752411480881!5m2!1sen!2suk" 
+    ></iframe>
+  </div>
+
+  <!-- Footer -->
+  <footer id="footer-container"></footer>
+
+  <!-- form submit test -->
+  <script src="/js/contact-form.js"></script>
+  
+</body>
+</html>

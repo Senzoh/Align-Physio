@@ -1,0 +1,72 @@
+<div class="sticky top-0 z-50 shadow-md w-full h-[100px] bg-white flex justify-between items-center px-4 md:px-20 xl:px-40">
+  <a href="/index.html" class="text-2xl font-bold">Align Physio</a>
+
+  <!-- Hidden Checkbox for Menu Toggle -->
+  <input type="checkbox" id="menu-toggle" class="hidden peer">
+  <label for="menu-toggle" class="cursor-pointer p-2 md:hidden text-2xl">☰</label>
+
+  <!-- Navigation Container -->
+  <nav class="absolute top-[100px] left-0 w-full bg-white shadow-md hidden peer-checked:block md:static md:flex md:justify-end md:bg-transparent md:shadow-none transition-all duration-300">
+    <ul class="flex flex-col md:flex-row md:space-x-5 text-gray-500 font-medium text-md">
+      <li class="p-4 md:p-0 cursor-pointer">
+        <a href="/index.html" class="hover:text-amber-500 transition">Home</a>
+      </li>
+      <li class="p-4 md:p-0 cursor-pointer">
+        <a href="/pages/about/professionals.html" class="hover:text-amber-500 transition">Professionals</a>
+      </li>
+
+      <!-- Services Dropdown -->
+      <li class="relative group">
+        <span class="p-4 md:p-0 cursor-pointer flex items-center">
+          Services
+          <span class="ml-2 transition-transform duration-300 group-hover:rotate-180">▲</span>
+        </span>
+        <ul class="absolute left-0 mt-2 w-full md:w-56 bg-blue-100 shadow-md rounded-md overflow-hidden opacity-0 invisible group-hover:visible group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-300 z-50">
+          
+          <li class="hover:bg-blue-200 px-4 py-2 cursor-pointer">
+            <a href="/pages/services/acupuncture.html" class="block w-full h-full">Acupuncture</a>
+          </li>
+
+          <li class="hover:bg-blue-200 px-4 py-2 cursor-pointer">
+            <a href="/pages/services/massage.html" class="block w-full h-full">Massage</a>
+          </li>
+          
+          <li class="hover:bg-blue-200 px-4 py-2 cursor-pointer">
+            <a href="/pages/services/cupping.html" class="block w-full h-full">Cupping</a>
+          </li>
+          
+          <li class="hover:bg-blue-200 px-4 py-2 cursor-pointer">
+            <a href="/pages/services/stretching.html" class="block w-full h-full">PNF Stretching</a>
+          </li>
+
+          <li class="hover:bg-blue-200 px-4 py-2 cursor-pointer">
+            <a href="/pages/services/complete-assesment.html" class="block w-full h-full">Complete Physical Assessment</a>
+          </li>
+
+          <li class="hover:bg-blue-200 px-4 py-2 cursor-pointer">
+            <a href="/pages/services/virtual-consultation.html" class="block w-full h-full">Virtual Consultation</a>
+          </li>
+
+          <li class="hover:bg-blue-200 px-4 py-2 cursor-pointer">
+            <a href="/pages/services/rehabilitation-program.html" class="block w-full h-full">Rehabilitation Program</a>
+          </li>
+
+          <li class="hover:bg-blue-200 px-4 py-2 cursor-pointer">
+            <a href="/pages/services/post-surgery-rehabilitation-program.html" class="block w-full h-full">Post-Surgery Rehabilitation</a>
+          </li>
+        
+        </ul>
+      </li>
+
+      <li class="p-4 md:p-0 cursor-pointer">
+        <a href="/index.html#faq-section" class="hover:text-amber-500 transition">FAQs</a>
+      </li>    
+
+      <li class="p-4 md:p-0">
+        <a href="/pages/contact-us/contact-us.html" class="py-3 px-5 bg-amber-500 hover:bg-amber-600 text-white font-medium rounded-md shadow-sm">
+          Contact Us
+        </a>
+      </li>
+    </ul>
+  </nav>
+</div>

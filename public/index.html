@@ -1,0 +1,608 @@
+<!doctype html>
+<html>
+<head>
+  <title>*basic Align Physio</title>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="./output.css" rel="stylesheet">
+  <script type="module" src="/src/js/main.js" defer></script>
+  <script src="/js/components.js" defer></script>
+  <script src="/js/faq-dropdown.js" defer></script>
+  <!-- npm run dev -->
+</head>
+
+<body>
+<!-- Navigation Bar -->
+<header id="nav-container" class="z-50 sticky top-0"></header>
+
+<!-- Hero -->
+<section class="relative h-[75vh] bg-cover bg-center" style="background-image: url('images/hero.jpeg')">
+  <!-- Overlay dark background for readability (optional) -->
+  <div class="absolute inset-0 bg-black/5"></div>
+
+  <!-- Centered call-to-action content -->
+  <div class="absolute inset-0 flex items-center justify-center sm:justify-start">
+    <div class="max-w-lg w-full py-15 px-8 sm:ml-30 backdrop-blur-sm bg-white-300/15 rounded-md shadow-lg space-y-4">
+      
+      <div class="space-y-2 text-center">
+        <p class="text-3xl md:text-4xl mb-3 text-left font-bold text-blue-900 drop-shadow-[0_2px_4px_rgba(255,255,255,0.7)]">
+          Talk to a qualified physiotherapist from the comfort of your home.
+          <!-- Get expert physiotherapy support from anywhere, at your convenience. -->
+        </p>
+        <p class="text-black text-base mb-3 text-left md:text-lg opacity-90">
+          Book a consultation. Get a diagnosis. Get better advice.
+        </p>
+      </div>
+      
+
+      <div class="flex justify-start">
+        <a href="/pages/contact-us/contact-us.html" class="py-4 px-9 bg-amber-500 hover:bg-amber-600 text-white font-medium rounded-md shadow-sm transition duration-200 focus:outline-none focus:ring-2 focus:ring-amber-400 focus:ring-offset-1">
+          Contact Us
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- BULLET POINTS  -->
+<section class="bg-blue-100 py-10 px-4 md:px-20 xl:px-40">
+  <ul class="sm:flex sm:justify-between">
+    <li class="font-bold text-xl text-gray-700"><span class="text-amber-500">&#x2713;</span>UK based</li>
+    <li class="font-bold text-xl text-gray-700"><span class="text-amber-500">&#x2713;</span>Certified physios</li>
+    <li class="font-bold text-xl text-gray-700"><span class="text-amber-500">&#x2713;</span>Fast appointments</li>
+    <li class="font-bold text-xl text-gray-700"><span class="text-amber-500">&#x2713;</span>Tailored advice <span class="text-gray-500 text-sm">(vs. generic Google info)</span></li>
+    <li class="font-bold text-xl text-gray-700"><span class="text-amber-500">&#x2713;</span>Follow-up support</li>
+  </ul>
+</section>
+
+<!-- Introduction -->
+<section class="py-20 px-4 md:px-20 xl:px-40 sm:flex gap-x-10">
+  <div class="sm:flex-1 flex flex-col justify-center">
+    <p class="text-blue-800 font-bold text-left">YOUR RECOVERY PARTNER</p>
+    <h2 class="text-3xl md:text-3xl font-bold text-gray-900 text-left mb-6 tracking-tight">
+      Expert care, anytime, anywhere.
+    </h2>
+    <p class="text-gray-600 font-semibold">
+      At Physio Consulting in Canary Whaf, we empower you to take control of your health with expert physiotherapy advice. Our qualified physiotherapists are dedicated to providing
+      tailored solutions to your specific needs, ensuring you receive personalized care that fits your lifestyle. Whether your recovering from an injury or managing chronic
+      pain, we're here to support your journey to better health—quickly and effectively.</p>
+
+      <div class="flex gap-x-4 py-5">
+        <a href="/pages/contact-us/contact-us.html" class="py-3 px-5 bg-amber-500 hover:bg-amber-600 text-white font-medium rounded-md shadow-sm transition duration-200 focus:outline-none focus:ring-2 focus:ring-amber-400 focus:ring-offset-1">
+          Contact Us
+        </a>
+    
+        <a href="/pages/contact-us/contact-us.html" class="py-3 px-5 bg-white text-amber-500 border border-amber-500 hover:bg-amber-50 font-medium rounded-md shadow-sm transition duration-200 focus:outline-none focus:ring-2 focus:ring-amber-400 focus:ring-offset-1">
+          Learn more
+        </a>
+      </div>
+  </div>  
+
+  <div class="sm:flex-1 hidden md:block">
+    <img 
+      src="/images/clinic.png" 
+      alt="Full image" 
+      class="w-full h-full object-cover"
+    />
+  </div>
+</section>
+
+<!-- Why Choose Us -->
+<section class="bg-blue-50 py-20 px-4 md:px-20 xl:px-40">
+  <div class="">
+    <p class="text-blue-800 font-bold text-left">EXPERT PHYSIOTHERAPY</p>
+    <h2 class="text-3xl md:text-3xl font-bold text-gray-900 text-left mb-12 tracking-tight">
+      Get personalized care from qualified professionals.
+    </h2>
+  </div>
+
+  <div class="md:flex flex-wrap items-stretch md:justify-between md:gap-x-8">
+    <!-- Card 1 -->
+    <div class="flex-1 bg-white mb-4 sm:mb-0 rounded-xs shadow-md overflow-hidden text-center">
+      <div class="aspect-video w-full">
+        <img 
+          src="/images/services/sports.png" 
+          alt="Sports injury rehabilitation" 
+          class="w-full h-full object-cover"
+        />
+      </div>
+      <div class="p-4 space-y-2">
+        <p class="text-gray-800 font-bold text-left text-lg">Sports injury rehabilitation</p>
+        <p class="text-left text-gray-500">Recover effectively from sports injuries with expert guidance.</p>
+        <a class="block hover:text-amber-500 underline text-left text-gray-500 font-bold" href="#">Learn More</a>
+      </div>
+    </div>
+  
+    <!-- Card 2 -->
+    <div class="flex-1 bg-white mb-4 sm:mb-0 rounded-xs shadow-md overflow-hidden text-center ">
+      <div class="aspect-video w-full">
+        <img 
+          src="/images/services/options.png" 
+          alt="Chronic pain management" 
+          class="w-full h-full object-cover"
+        />
+      </div>
+      <div class="p-4 space-y-2">
+        <p class="text-gray-800 font-bold text-left text-lg">Chronic pain management</p>
+        <p class="text-left text-gray-500">Find relief and regain control over chronic pain.</p>
+        <a class="block hover:text-amber-500 underline text-left text-gray-500 font-bold" href="#">Learn More</a>
+      </div>
+    </div>
+  
+    <!-- Card 3 -->
+    <div class="flex-1 bg-white mb-4 sm:mb-0 rounded-xs shadow-md overflow-hidden text-center">
+      <div class="aspect-video w-full">
+        <img 
+          src="/images/services/rehab.png" 
+          alt="Speak to a licensed physiotherapist" 
+          class="w-full h-full object-cover"
+        />
+      </div>
+      <div class="p-4 space-y-2">
+        <p class="text-gray-800 font-bold text-left text-lg">Post-surgery rehabilitation</p>
+        <p class="text-left text-gray-500">Get back on your feet faster after surgery with our guidance.</p>
+        <a class="block hover:text-amber-500 underline text-left text-gray-500 font-bold" href="#">Learn More</a>
+      </div>
+    </div>
+  </div>
+
+ </section>
+
+<!-- Step To Recovery  -->
+<section class="py-20 px-4 md:px-20 xl:px-40">
+  <div>
+    <p class="text-blue-800 font-bold text-left">SIMPLE STEPS TO RECOVERY</p>
+    <h2 class="text-3xl md:text-3xl font-bold text-gray-900 text-left mb-12 tracking-tight">
+      Your path to better health starts here.
+    </h2>
+  </div>
+
+  <div class="sm:flex items-start sm:justify-between sm:gap-x-8 sm:pb-15">
+    <!-- Card 1 -->
+    <div class="flex-1 bg-white mb-4 sm:mb-0 rounded-xs shadow-md overflow-hidden text-center">
+      <img 
+        src="/images/hit/book.png" 
+        alt="Contact Us" 
+        class="w-full aspect-video object-cover"
+      />
+      <div class="p-4 space-y-2">
+        <p class="text-gray-800 font-bold text-left text-lg">Contact Us</p>
+        <p class="text-left text-gray-500">Reach out via our contact form or give us a call. Let us know about your condition or concern.</p>
+      </div>
+    </div>
+  
+    <!-- Card 2 -->
+    <div class="flex-1 bg-white mb-4 sm:mb-0 rounded-xs shadow-md overflow-hidden text-center">
+      <img 
+        src="/images/hit/speak.png" 
+        alt="Chronic pain management" 
+        class="w-full aspect-video object-cover"
+      />
+      <div class="p-4 space-y-2">
+        <p class="text-gray-800 font-bold text-left text-lg">Speak to a licensed physiotherapist</p>
+        <p class="text-left text-gray-500">We’ll arrange a Free 20-minute call to understand your goals and share expert guidance.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="flex gap-x-8 justify-center">
+    <button class="py-4 px-9 bg-amber-500 hover:bg-amber-600 text-white font-medium rounded-md shadow-sm transition duration-200 focus:outline-none focus:ring-2 focus:ring-amber-400 focus:ring-offset-1">
+      Contact Us
+    </button>
+
+    <button class="py-4 px-9 bg-white text-amber-500 border border-amber-500 hover:bg-amber-50 font-medium rounded-md shadow-sm transition duration-200 focus:outline-none focus:ring-2 focus:ring-amber-400 focus:ring-offset-1">
+      How it works
+    </button>
+  </div>
+</section>
+
+<!-- What We provide -->
+<section class="bg-blue-50 py-20 px-4 md:px-20 xl:px-40 sm:flex gap-x-10">
+  <div class="sm:flex-1 hidden md:block">
+    <img 
+      src="/images/clinic.png" 
+      alt="Full image" 
+      class="w-full h-full object-cover"
+    />
+  </div>
+
+  <div class="sm:flex-1 flex flex-col">
+    <p class="text-blue-800 font-bold text-left">WHAT WE OFFER</p>
+    <h2 class="text-3xl md:text-3xl font-bold text-gray-900 text-left mb-4 tracking-tight">
+      Tailored Physiotherapy, Built Around You.
+    </h2>
+
+    <ul class="flex gap-y-3 flex-1 flex-col justify-between whitespace-nowrap">
+      <li class="flex">
+        <img class="mr-4" src="/images/icons/comprehensive-consultation.svg" alt="Acupuncture icon" width="32" height="32">
+        <div>
+          <b class="text-blue-950 font-semibold">Comprehensive Consultation</b>
+          <p class="text-gray-600 ">Detailed discussion to understand your medical history <span>and current concerns</span></p>
+        </div>
+      </li>
+      <li class="flex">
+        <img class="mr-4" src="/images/icons/physical-assesment.svg" alt="Acupuncture icon" width="32" height="32">
+        <div>
+          <b class="text-blue-950 font-semibold">Physical Assessment</b>
+          <p class="text-gray-600">Hands-on evaluation using clinical tests to diagnose <span>your condition</span></p>
+        </div>
+      </li>
+      <li class="flex">
+        <img class="mr-4" src="/images/icons/eduction.svg" alt="Acupuncture icon" width="32" height="32">
+        <div>
+          <b class="text-blue-950 font-semibold">Education</b>
+          <p class="text-gray-600">Clear explanation of your condition and the proposed treatment plan.</p>
+        </div>
+      </li>
+      <li class="flex">
+        <img class="mr-4" src="/images/icons/rehabilitation-program.svg" alt="Acupuncture icon" width="32" height="32">
+        <div>
+          <b class="text-blue-950 font-semibold">Personalized Rehabilitation Program</b>
+          <p class="text-gray-600">Tailored exercises and strategies to aid your recovery.</p>
+        </div>
+      </li>
+      <li class="flex">
+        <img class="mr-4" src="/images/icons/sports-massage.svg" alt="Acupuncture icon" width="32" height="32">
+        <div>
+          <b class="text-blue-950 font-semibold">Sports massage</b>
+          <p class="text-gray-600">To reduce muscle tension and improve physical performance</p>
+        </div>
+      </li>
+      <li class="flex">
+        <img class="mr-4" src="/images/icons/cupping-therapy.svg" alt="Acupuncture icon" width="32" height="32">
+        <div>
+          <b class="text-blue-950 font-semibold">Cupping therapy</b>
+          <p class="text-gray-600">To stimulate blood flow and improve overall circulation</p>
+        </div>
+      </li>
+      <li class="flex">
+        <img class="mr-4" src="/images/icons/medical-acupuncture.svg" alt="Acupuncture icon" width="32" height="32">
+        <div>
+          <b class="text-blue-950 font-semibold">Medical acupuncture</b>
+          <p class="text-gray-600">To relieve pain and support natural healing processes</p>
+        </div>
+      </li>
+    </ul>
+
+  </div>  
+</section>
+
+<!-- Consoltaion Options-->
+<section class="bg-gray-50 py-20 px-4 md:px-20 xl:px-40">
+  <div>
+    <div class="text-center mb-12">
+      <p class="text-blue-800 font-bold">AFFORDABLE CONSULTATIONS</p>
+      <h2 class="text-3xl font-bold text-gray-900">Get expert advice without breaking the bank.</h2>
+    </div>
+
+    <div class="grid md:grid-cols-2 lg:grid-cols-2 gap-8">
+      <!-- Card 1 -->
+      <div class="bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition border-b-3 border-blue-900">
+        <div class="flex items-center mb-4">
+          <div class="w-12 h-12 bg-blue-950 rounded-full overflow-hidden">
+            <img src="/images/hit/book.png" alt="Virtual Consultation" class="object-cover w-full h-full">
+          </div>
+          <div class="ml-4">
+            <h3 class="text-lg font-bold text-blue-950">Virtual Physiotherapy Consultation</h3>
+            <span class="text-gray-500">£30/call</span>
+          </div>
+        </div>
+        <p class="text-gray-700 mb-4">Connect with a licensed physiotherapist online for tailored advice from the comfort of your home.</p>
+        <a href="/pages/services/virtual-consultation.html" class="text-amber-500 font-semibold hover:text-amber-600">Learn More</a>
+      </div>
+
+      <!-- Card 2 -->
+      <div class="bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition border-b-3 border-blue-900">
+        <div class="flex items-center mb-4">
+          <div class="w-12 h-12 bg-blue-950 rounded-full overflow-hidden">
+            <img src="/images/plans/virtual-consultation.png" alt="Physical Assessment" class="object-cover w-full h-full">
+          </div>
+          <div class="ml-4">
+            <h3 class="text-lg font-bold text-blue-950">Comprehensive Physical Assessment</h3>
+            <span class="text-gray-500">£75/assessment</span>
+          </div>
+        </div>
+        <p class="text-gray-700 mb-4">Receive an in-depth physical assessment to understand your movement patterns and prevent future injuries.</p>
+        <a href="/pages/services/complete-assesment.html" class="text-amber-500 font-semibold hover:text-amber-600">Learn More</a>
+      </div>
+
+      <!-- Card 3 -->
+      <div class="bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition border-b-3 border-blue-900">
+        <div class="flex items-center mb-4">
+          <div class="w-12 h-12 bg-blue-950 rounded-full overflow-hidden">
+            <img src="/images/plans/personalized-program.png" alt="Personalized Rehab" class="object-cover w-full h-full">
+          </div>
+          <div class="ml-4">
+            <h3 class="text-lg font-bold text-blue-950">Personalized Rehabilitation Program</h3>
+            <span class="text-gray-500">£49/month</span>
+          </div>
+        </div>
+        <p class="text-gray-700 mb-4">Tailored exercise programs designed to aid recovery and prevent re-injury.</p>
+        <a href="/pages/services/rehabilitation-program.html" class="text-amber-500 font-semibold hover:text-amber-600">Learn More</a>
+      </div>
+
+      <!-- Card 4 -->
+      <div class="bg-white rounded-lg shadow-md p-6 hover:shadow-lg transitio border-b-3 border-blue-900">
+        <div class="flex items-center mb-4">
+          <div class="w-12 h-12 bg-blue-950 rounded-full overflow-hidden">
+            <img src="/images/plans/surgery-consultaion.png" alt="Post-Surgery Support" class="object-cover w-full h-full">
+          </div>
+          <div class="ml-4">
+            <h3 class="text-lg font-bold text-blue-950">Post-Surgery Physiotherapy</h3>
+            <span class="text-gray-500">£75/month</span>
+          </div>
+        </div>
+        <p class="text-gray-700 mb-4">Receive targeted post-surgery care to safely regain strength and mobility.</p>
+        <a href="/pages/services/post-surgery-rehabilitation-program.html" class="text-amber-500 font-semibold hover:text-amber-600">Learn More</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!--FAQ-->
+<section class="bg-blue-50 py-20 px-4 md:px-20 xl:px-40" id="faq-section">
+  <div class="">
+    <p class="text-blue-800 font-bold text-left">REQUENTLY ASKED QUESTIONS - FAQ</p>
+    <h2 class="text-3xl md:text-3xl font-bold text-gray-900 text-left mb-12 tracking-tight">
+      Everything you need to know, answered.
+    </h2>
+  </div>
+
+  <!-- FAQ dropdown 1 -->
+  <div data-toggle="faq" class="bg-white rounded-xs shadow-md overflow-hidden p-6 pb-0 mb-4 cursor-pointer">
+    <div class="flex justify-between items-center flex-1 bg-white pb-5 rounded-xs border-b border-gray-200">
+      <h3 class="font-extrabold">Why should I visit a physiotherapist?</h3>
+      <span 
+        class="flex justify-center items-center rounded-full size-10 shrink-0 bg-amber-500 text-white font-bold"
+      >
+        +
+      </span>
+    </div>
+  
+    <div data-target="faq" class="hidden pt-5 pb-5">
+      <p>
+        You should wear comfortable, loose-fitting clothing that allows for easy movement and access to the area being treated. If you're attending for a lower body issue, 
+        wearing shorts or loose-fitting pants that can be rolled up is ideal. For upper body concerns, a sleeveless top or a loose T-shirt works best. If your session 
+        involves movement assessments, athletic wear and trainers are recommended. Avoid jeans, tight clothing, or restrictive footwear, as they may limit movement and 
+        make assessment or treatment more difficult.
+      </p>
+    </div>
+  </div>
+
+  <!-- FAQ dropdown 2 -->
+  <div data-toggle="faq" class="bg-white rounded-xs shadow-md overflow-hidden p-6 pb-0 mb-4 cursor-pointer">
+    <div class="flex justify-between items-center flex-1 bg-white pb-5 rounded-xs border-b border-gray-200">
+      <h3 class="font-extrabold">What should I expect during my first physiotherapy appointment?</h3>
+      <span 
+        class="flex justify-center items-center rounded-full size-10 shrink-0 bg-amber-500 text-white font-bold"
+      >
+        +
+      </span>
+    </div>
+  
+    <div data-target="faq" class="hidden pt-5 pb-5">
+      <p>
+        You should wear comfortable, loose-fitting clothing that allows for easy movement and access to the area being treated. If you're attending for a lower body issue, wearing shorts or 
+        loose-fitting pants that can be rolled up is ideal. For upper body concerns, a sleeveless top or a loose T-shirt works best. If your session involves movement assessments, athletic 
+        wear and trainers are recommended. Avoid jeans, tight clothing, or restrictive footwear, as they may limit movement and make assessment or treatment more difficult.
+      </p>
+    </div>
+  </div>
+
+  <!-- FAQ dropdown 3 -->
+  <div data-toggle="faq" class="bg-white rounded-xs shadow-md overflow-hidden p-6 pb-0 mb-4 cursor-pointer">
+    <div class="flex justify-between items-center flex-1 bg-white pb-5 rounded-xs border-b border-gray-200">
+      <h3 class="font-extrabold">How long will my treatment take to see results?</h3>
+      <span 
+        class="flex justify-center items-center rounded-full size-10 shrink-0 bg-amber-500 text-white font-bold"
+      >
+        +
+      </span>
+    </div>
+  
+    <div data-target="faq" class="hidden pt-5 pb-5">
+      <p>
+        You should wear comfortable, loose-fitting clothing that allows for easy movement and access to the area being treated. If you're attending for a lower body issue, wearing shorts or 
+        loose-fitting pants that can be rolled up is ideal. For upper body concerns, a sleeveless top or a loose T-shirt works best. If your session involves movement assessments, athletic 
+        wear and trainers are recommended. Avoid jeans, tight clothing, or restrictive footwear, as they may limit movement and make assessment or treatment more difficult.
+      </p>
+    </div>
+  </div>
+
+  <!-- FAQ dropdown 4 -->
+  <div data-toggle="faq" class="bg-white rounded-xs shadow-md overflow-hidden p-6 pb-0 mb-4 cursor-pointer">
+    <div class="flex justify-between items-center flex-1 bg-white pb-5 rounded-xs border-b border-gray-200">
+      <h3 class="font-extrabold">What should I wear to my physiotherapy sessions?</h3>
+      <span 
+        class="flex justify-center items-center rounded-full size-10 shrink-0 bg-amber-500 text-white font-bold"
+      >
+        +
+      </span>
+    </div>
+  
+    <div data-target="faq" class="hidden pt-5 pb-5">
+      <p>
+        You should wear comfortable, loose-fitting clothing that allows for easy movement and access to the area being treated. If you're attending for a lower body issue, wearing shorts or 
+        loose-fitting pants that can be rolled up is ideal. For upper body concerns, a sleeveless top or a loose T-shirt works best. If your session involves movement assessments, athletic 
+        wear and trainers are recommended. Avoid jeans, tight clothing, or restrictive footwear, as they may limit movement and make assessment or treatment more difficult.
+      </p>
+    </div>
+  </div>
+
+  <div class="flex gap-x-4 pt-10 justify-center">
+    <a href="/pages/faq/faq.html" class="py-4 px-9 bg-white text-amber-500 border border-amber-500 hover:bg-amber-50 font-medium rounded-md shadow-sm transition duration-200 focus:outline-none focus:ring-2 focus:ring-amber-400 focus:ring-offset-1">
+      More...
+    </a>
+  </div>
+</section>
+
+<!-- Contact Us -->
+<section class="py-20 px-4 md:px-20 xl:px-40" id="contact-section">
+<div class="flex flex-col md:flex-row rounded-lg shadow-lg mx-auto">
+  <!-- left -->
+  <div class="sm:flex-1 bg-blue-50 p-10  rounded-tl-lg rounded-bl-lg">
+    <div class="mb-10">
+      <p class="text-blue-800 font-bold uppercase tracking-wide mb-2">Get in Touch</p>
+      <h2 class="text-3xl font-bold text-gray-900 tracking-tight mb-4">
+        We’d love to hear from you.
+      </h2>
+      <p class="text-gray-600 max-w-2xl">
+        Whether you have questions about our services, pricing, or anything else — our team is ready to answer all your questions. Reach out to us through any of the following channels.
+      </p>
+    </div>
+  
+    <div class="grid gap-8 md:grid-cols-2">
+      <!-- Contact Details -->
+      <div class="space-y-6 h-full">
+        <div>
+          <h3 class="text-lg font-semibold text-gray-900">📧 Email</h3>
+          <p class="text-gray-600">support@yourcompany.com</p>
+        </div>
+  
+        <div>
+          <h3 class="text-lg font-semibold text-gray-900">📞 Phone</h3>
+          <p class="text-gray-600">+44 1234 567 890</p>
+        </div>
+  
+        <div>
+          <h3 class="text-lg font-semibold text-gray-900">📍 Location</h3>
+          <p class="text-gray-600">123 Physio Street, London, UK</p>
+        </div>
+  
+        <div class="pt-4 flex space-x-4 text-gray-500">
+          <!-- Lucide icons (via CDN) -->
+          <a href="#" class="hover:text-blue-600" aria-label="Twitter">
+            <i data-lucide="twitter" class="w-6 h-6"></i>
+          </a>
+          <a href="#" class="hover:text-blue-600" aria-label="Instagram">
+            <i data-lucide="instagram" class="w-6 h-6"></i>
+          </a>
+          <a href="#" class="hover:text-blue-600" aria-label="Facebook">
+            <i data-lucide="facebook" class="w-6 h-6"></i>
+          </a>
+          <a href="#" class="hover:text-blue-600" aria-label="LinkedIn">
+            <i data-lucide="linkedin" class="w-6 h-6"></i>
+          </a>
+        </div>
+      </div>
+  
+      <!-- Map -->
+      <div class="rounded-lg overflow-hidden shadow-md">
+        <iframe
+          class="w-full h-72 border-0"
+          loading="lazy"
+          allowfullscreen
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2483.913052454375!2d-0.016489397744426895!3d51.496463030178795!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487602bca74c5203%3A0xc9d8c00b6c686495!2sVitalFit%20UK%20-%20EMS%2C%20Pilates%20Reformer%2C%20Sports%20Therapy!5e0!3m2!1sen!2suk!4v1752411480881!5m2!1sen!2suk" 
+        ></iframe>
+      </div>
+    </div>
+  </div>
+
+  <!-- right -->
+  <div class="sm:flex-1 bg-white p-10 rounded-tr-lg rounded-br-lg">
+    <form class="flex flex-col justify-around h-full">
+      <!-- Name Field -->
+      <div>
+        <label for="name" class="block text-sm font-medium text-gray-700 mb-1">Full Name</label>
+        <input
+          type="text"
+          id="name"
+          name="name"
+          placeholder="Your name"
+          class="w-full px-4 py-3 border border-gray-300 rounded-md shadow-sm focus:ring-2 focus:ring-blue-500 focus:outline-none"
+          required
+        />
+      </div>
+  
+      <!-- Email Field -->
+      <div>
+        <label for="email" class="block text-sm font-medium text-gray-700 mb-1">Email Address</label>
+        <input
+          type="email"
+          id="email"
+          name="email"
+          placeholder="you@example.com"
+          class="w-full px-4 py-3 border border-gray-300 rounded-md shadow-sm focus:ring-2 focus:ring-blue-500 focus:outline-none"
+          required
+        />
+      </div>
+
+      <!-- Phone Field -->
+      <div>
+        <label for="phone" class="block text-sm font-medium text-gray-700 mb-1">Phone Number</label>
+        <input
+        type="tel"
+        id="phone"
+        name="phone"
+        placeholder="+44 7123 456789"
+        pattern="^\+?[0-9\s\-]{7,15}$"
+        inputmode="tel"
+        class="w-full px-4 py-3 border border-gray-300 rounded-md shadow-sm focus:ring-2 focus:ring-blue-500 focus:outline-none"
+        required
+      />      
+      </div>
+
+      <!-- Message Field -->
+      <div>
+        <label for="message" class="block text-sm font-medium text-gray-700 mb-1">Your Message</label>
+        <textarea
+          id="message"
+          name="message"
+          rows="5"
+          placeholder="Type your message here..."
+          class="w-full px-4 py-3 border border-gray-300 rounded-md shadow-sm focus:ring-2 focus:ring-blue-500 focus:outline-none resize-none"
+          required
+        ></textarea>
+      </div>
+
+      <!-- captcha box -->
+  
+      <!-- Submit Button -->
+      <div class="pt-4">
+        <button
+          type="submit"
+          class="w-full bg-blue-600 hover:bg-blue-700 text-white font-medium py-3 px-6 rounded-md shadow-md transition duration-200 focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-offset-2"
+        >
+          Send Message
+        </button>
+      </div>
+    </form>
+  </div>
+</div>
+
+<script src="/js/contact-form.js"></script>
+
+</section>
+
+<!-- CTA -->
+<section class="py-10 px-4 md:px-20 xl:px-40">
+  <div class="relative w-full h-96 overflow-hidden rounded-lg">
+    <!-- Background Image -->
+    <img 
+      src="/images/post-surgery-therapy.jpg" 
+      alt="Post-surgery therapy" 
+      class="w-full h-full object-cover"
+    />
+  
+    <!-- Overlay Content -->
+    <div class="absolute inset-0 bg-blue-950/30 flex items-center">
+      <div class="text-left text-white px-10 max-w-md">
+        <h2 class="text-3xl font-bold mb-2 text-white">Post-Surgery Therapy</h2>
+        <p class="text-sm mb-8">
+          Begin your recovery with professional support tailored to your needs. Our experts help restore strength and mobility after surgery.
+        </p>
+        <a href="/pages/contact-us/contact-us.html" class="py-4 px-9 bg-amber-500 hover:bg-amber-600 text-white font-medium rounded-md shadow-sm transition duration-200 focus:outline-none focus:ring-2 focus:ring-amber-400 focus:ring-offset-1">
+          Book a Session
+        </a>
+      </div>
+    </div>
+  </div>
+  
+</section>
+
+<!-- footer -->
+<footer id="footer-container"></footer>
+
+</body>
+</html>

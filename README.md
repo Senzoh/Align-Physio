@@ -28,5 +28,5 @@ This is a Node.js-based web application designed to:
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/yourusername/align-physio.git
+git clone https://github.com/Senzoh/align-physio.git
 cd align-physio
